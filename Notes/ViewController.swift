@@ -19,7 +19,7 @@ class ViewController: UITableViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
 
         let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addNewNote))
-        addButton.tintColor = .systemYellow
+        addButton.tintColor = UIColor(red: 1, green: 0.749, blue: 0, alpha: 1)
         navigationItem.leftBarButtonItem = addButton
         
         let defaults = UserDefaults.standard

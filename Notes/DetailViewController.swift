@@ -21,10 +21,10 @@ class DetailViewController: UIViewController {
 
         let shareButton = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareNote))
         let saveButton = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(saveNote))
-        shareButton.tintColor = .systemYellow
-        saveButton.tintColor = .systemYellow
+        shareButton.tintColor = UIColor(red: 1, green: 0.749, blue: 0, alpha: 1)
+        saveButton.tintColor = UIColor(red: 1, green: 0.749, blue: 0, alpha: 1)
         navigationItem.rightBarButtonItems = [saveButton, shareButton]
-        self.navigationController?.navigationBar.tintColor = .systemYellow
+        self.navigationController?.navigationBar.tintColor = UIColor(red: 1, green: 0.749, blue: 0, alpha: 1)
 
         //keyboard setup
         let notificationCenter = NotificationCenter.default
